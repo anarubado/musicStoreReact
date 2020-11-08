@@ -49,6 +49,7 @@ function Home() {
   return (
     <div id="all-products">
         <Container>
+          <h2 className="title-section">All products</h2>
           <Row>
             <Product images="/bass.jpg" name="Fender" category="Basses" price="20.000"/>
             <Product images="/bass.jpg" name="Fender" category="Basses" price="20.000"/>
@@ -69,6 +70,7 @@ function Basses() {
   return (
     <div id="basses">
       <Container>
+          <h2 className="title-section">Basses</h2>
           <Row>
             <Product images="/bass.jpg" name="Fender" category="Basses" price="20.000"/>
             <Product images="/bass.jpg" name="Fender" category="Basses" price="20.000"/>
@@ -89,7 +91,8 @@ function Pianos() {
   return (
     <div id="pianos">
       <Container>
-          <Row>
+        <h2 className="title-section">Pianos</h2>
+          <Row>            
             <Product images="/keys.jpg" name="Fender" category="Basses" price="20.000"/>
             <Product images="/keys.jpg" name="Fender" category="Basses" price="20.000"/>
             <Product images="/keys.jpg" name="Fender" category="Basses" price="20.000"/>
