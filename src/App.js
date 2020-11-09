@@ -16,6 +16,7 @@ import {
 /* My components */
 import Product from "./components/Product";
 import NavigationBar from "./components/NavigationBar";
+import Detail from "./components/Detail";
 
 
 function App() {
@@ -28,14 +29,21 @@ function App() {
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-          <Route path="/basses">
+          
+          <Route path="/basses" exact>
             <Basses />
           </Route>
-          <Route path="/pianos">
+          <Route path="/basses/:id">
+            <Detail/>
+          </Route>
+          <Route path="/pianos" exact>
             <Pianos />
           </Route>
+          <Route path="/pianos/:id">
+            <Detail/>
+          </Route>
           <Route path="/">
-            <Home />
+            <Products />
           </Route>
         </Switch>
       </div>
@@ -44,8 +52,7 @@ function App() {
   );
 }
 
-
-function Home() {
+function Products() {
   return (
     <div id="all-products">
         <Container>

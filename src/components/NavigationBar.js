@@ -12,7 +12,7 @@ function NavigationBar() {
                     <img id="logo" src="/logo.png" alt="Logo"/>
                 </Navbar.Brand>
                 <Nav className="mr-auto">
-                    <Link to="/" className="links">All products</Link>
+                    <Link to="/products" className="links">All products</Link>
                     <Link to="/basses" className="links">Basses</Link>
                     <Link to="/pianos" className="links">Pianos</Link>
                 </Nav>
