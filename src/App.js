@@ -57,17 +57,7 @@ function Products() {
     <div id="all-products">
         <Container>
           <h2 className="title-section">All products</h2>
-          <Row>
-            <Product images="/bass.jpg" name="Fender" category="Basses" price="20.000"/>
-            <Product images="/bass.jpg" name="Fender" category="Basses" price="20.000"/>
-            <Product images="/bass.jpg" name="Fender" category="Basses" price="20.000"/>
-            <Product images="/bass.jpg" name="Fender" category="Basses" price="20.000"/>
-            <Product images="/bass.jpg" name="Fender" category="Basses" price="20.000"/>
-            <Product images="/keys.jpg" name="Fender" category="Basses" price="20.000"/>
-            <Product images="/keys.jpg" name="Fender" category="Basses" price="20.000"/>
-            <Product images="/keys.jpg" name="Fender" category="Basses" price="20.000"/>
-            <Product images="/keys.jpg" name="Fender" category="Basses" price="20.000"/>
-          </Row>        
+          <Product images="/bass.jpg" name="Fender" category="Basses" price="20.000"/>    
       </Container>
     </div>
   )
@@ -78,17 +68,8 @@ function Basses() {
     <div id="basses">
       <Container>
           <h2 className="title-section">Basses</h2>
-          <Row>
-            <Product images="/bass.jpg" name="Fender" category="Basses" price="20.000"/>
-            <Product images="/bass.jpg" name="Fender" category="Basses" price="20.000"/>
-            <Product images="/bass.jpg" name="Fender" category="Basses" price="20.000"/>
-            <Product images="/bass.jpg" name="Fender" category="Basses" price="20.000"/>
-            <Product images="/bass.jpg" name="Fender" category="Basses" price="20.000"/>
-            <Product images="/bass.jpg" name="Fender" category="Basses" price="20.000"/>
-            <Product images="/bass.jpg" name="Fender" category="Basses" price="20.000"/>
-            <Product images="/bass.jpg" name="Fender" category="Basses" price="20.000"/>
-            <Product images="/bass.jpg" name="Fender" category="Basses" price="20.000"/>
-          </Row>        
+          <Product images="/keys.jpg" name="Fender" category="Basses" price="20.000"/>  
+                  
       </Container>
     </div>
   )
@@ -99,17 +80,7 @@ function Pianos() {
     <div id="pianos">
       <Container>
         <h2 className="title-section">Pianos</h2>
-          <Row>            
-            <Product images="/keys.jpg" name="Fender" category="Basses" price="20.000"/>
-            <Product images="/keys.jpg" name="Fender" category="Basses" price="20.000"/>
-            <Product images="/keys.jpg" name="Fender" category="Basses" price="20.000"/>
-            <Product images="/keys.jpg" name="Fender" category="Basses" price="20.000"/>
-            <Product images="/keys.jpg" name="Fender" category="Basses" price="20.000"/>
-            <Product images="/keys.jpg" name="Fender" category="Basses" price="20.000"/>
-            <Product images="/keys.jpg" name="Fender" category="Basses" price="20.000"/>
-            <Product images="/keys.jpg" name="Fender" category="Basses" price="20.000"/>
-            <Product images="/keys.jpg" name="Fender" category="Basses" price="20.000"/>
-          </Row>        
+          <Product images="/keys.jpg" name="Fender" category="Basses" price="20.000"/>       
       </Container>
     </div>
   )
